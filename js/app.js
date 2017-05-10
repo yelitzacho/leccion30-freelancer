@@ -35,11 +35,8 @@ window.addEventListener('load', function (evento){
 		var imgModal = document.getElementById("myImg");
 		galeria.addEventListener('click', function(e){
 			if (e.target.tagName == "IMG") {
-	        modal.style.display = "block";
-	        console.log (e.target.src);
-	        imgModal.src = e.target.src;
-	        } else{
-	        	modal.style.display == "none";
-	        }
-	    });
-	}); 
+		        modal.style.display = "block";
+		        imgModal.src = e.target.src;
+	  	}
+	  });
+}); 

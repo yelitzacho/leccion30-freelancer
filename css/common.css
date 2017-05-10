@@ -77,3 +77,6 @@ h3{
 .bg-color{
 	background-color: #18bc9c;
 }
+li{
+	list-style: none;
+}
