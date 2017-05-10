@@ -1,38 +1,135 @@
 *{
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 }
+
+/*=====HEADER======*/
+
+nav{
+	position: fixed;
+}
+.nav-bar{
+	background-color: #2c3e50;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-bar-left{
+	padding-right: 15%;
+}
+.nav-bar-left a:first-child{
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: #ffffff;
+}
+.nav-bar-right{
+	padding-left: 14%;
+}
+.nav-bar-right a{
+	color: #ffffff;
+	padding: 13%;
+	font-weight: 700;
+}
+
+/*=====SECTION ENGINEER======*/
+
+.slide{
+	height: 730px;
+}
+.content-section-1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#title{
+	font-size: 4rem;
+	color: #ffffff;
+	text-align: center;
+}
+.content-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-section-1 hr{
+	height: 6px;
+	width: 100px;
+	background-color: #ffffff;
+	border: 0;
+	display: inline-block;
+}
+.content-section-1 i{
+	color: #ffffff;
+	font-size: 2rem;
+	padding: 1%;
+	display: inline-block;
+}
+.img-engineer{
+	padding: 3%;
+}
+
+/*=====SECTION PORTFOLIO======*/
+
+.content-title{
+}
+.portfolio{
+	height: 800px;
+}
+.portfolio hr{
+	height: 6px;
+	width: 100px;
+	background-color: #2c3e50;
+	border: 0;
+	display: inline-block;
+}
+.portfolio i{
+	color: #2c3e50;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	padding: 1%;
+}
+.portfolio h1{
+	color: #2c3e50;
+}
+.img-content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.img-portfolio{
+	overflow: hidden;
+	display: inline-flex;
+	width: 380px;
+	height: 270px;
+	padding: 1%;
+}
+.img-portfolio img{
+	width: 100%;
+	height: 100%;
+}
+
+/*=====SECTION ABOUT======*/
+
+
+
 .page-scroll{
 	display: inline-block;
 }
-header nav h1{
-	font-weight: 700;
-	font-size: 1.3rem;
-	color: #ffffff;
-}
-header{
 
-}
-.nav-menu{
-	font-size: 1rem;
-	font-weight: 700;
-}
-.nav-menu a{
-	text-decoration: none;
-	color: #ffffff;
+section:nth-child(1){
+	height: 500px;
+	width: 100%;
+	background-color: #18bc9c;
 }
 section{
 	height: 500px;
 	width: 100%;
 	background-color: #18bc9c;
-}
-.img-portfolio{
-	display: inline-flex;
-	width: 350px;
-	height: 200px;
-	background-color: green;
+	clear: both;
 }
 .about div{
 	display: inline-flex;
@@ -42,29 +139,15 @@ section{
 input{
 	display: block;
 }
-.slide{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#title{
-	font-size: 4rem;
-	color: #ffffff;
-}
-h3{
-	font-size: 1.35rem;
-	font-weight: 400;
-	color: #ffffff;
-}
+
+
+
 hr{
-	height: 5px;
-	width: 200px;
-	background-color: #ffffff;
-	border: 0;
+	
 }
 .bg-white{
 	background-color: #ffffff;
 }
-.title-general{
-	font-size: 2.4rem;
+.bg-color{
+	background-color: #18bc9c;
 }

@@ -14,10 +14,6 @@
 	min-height: 1px;
 	float: left;
 }
-.nav-bar{
-	background-color: #2c3e50;
-	height: 100px;
-}
 .col-1{
 	width: 8.334%;
 }
@@ -53,4 +49,25 @@
 }
 .col-12{
 	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+h3{
+	font-size: 1.35rem;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	padding: 1%;
+}
+.title-general{
+	font-size: 2.4rem;
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+}
+.content-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
