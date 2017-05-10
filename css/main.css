@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-menu{
+	display: inline-block;
+}
+header nav h1{
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #ffffff;
+}
+.nav-menu{
+	font-size: 1rem;
+	font-weight: 700;
+}
+.nav-menu a{
+	text-decoration: none;
+	color: #ffffff;
+}
+section{
+	height: 500px;
+	width: 100%;
+	background-color: #18bc9c;
+}
+.img-portfolio{
+	display: inline-flex;
+	width: 350px;
+	height: 200px;
+	background-color: green;
+}
+.about div{
+	display: inline-flex;
+	width: 30%;
+	text-align: justify;
+}
+input{
+	display: block;
+}
+.slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#title{
+	font-size: 4rem;
+	color: #ffffff;
+}
+h3{
+	font-size: 1.35rem;
+	font-weight: 400;
+	color: #ffffff;
+}
+hr{
+	height: 5px;
+	width: 200px;
+	background-color: #ffffff;
+	border: 0;
+}
+.bg-white{
+	background-color: #ffffff;
+}
+.title-general{
+	font-size: 2.4rem;
+}
