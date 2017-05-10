@@ -4,13 +4,16 @@
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
-.nav-menu{
+.page-scroll{
 	display: inline-block;
 }
 header nav h1{
 	font-weight: 700;
 	font-size: 1.3rem;
 	color: #ffffff;
+}
+header{
+
 }
 .nav-menu{
 	font-size: 1rem;
